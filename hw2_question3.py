@@ -11,4 +11,4 @@ driver.find_element(By.XPATH, '//a[@id="nav-orders"]').click()
 actual_result = driver.find_element(By.XPATH, '//h1').text
 expected_result = 'Sign in'
 assert expected_result == actual_result, f'Expected {expected_result} and got {actual_result}'
-driver.quit()
+driver.quit() 
