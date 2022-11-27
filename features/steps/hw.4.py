@@ -6,3 +6,15 @@
 #     Given open amazon page
 #     When  user must open best sellers page
 #     Then verify the 5 links
+
+
+
+#
+# ('hello world')
+# print("helloworld")
+
+name_list = { 'kath',  'rob', 'marcus'}
+print( name_list)
+def cat_goes_wild():
+    print(cat_goes_wild())
+
