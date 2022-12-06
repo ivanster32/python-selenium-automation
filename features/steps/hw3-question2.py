@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from behave import given, when, then
 
-@when ('click on orders')
+@when ('Open product page')
 def click_on_orders(context):
     context.driver.find_element(By.XPATH, '//a[@id="nav-orders"]').click()
 
