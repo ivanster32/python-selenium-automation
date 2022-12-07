@@ -1,0 +1,5 @@
+n = 10
+
+def sum(n):
+ # Logic to compute sum
+ return sum
